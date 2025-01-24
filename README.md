@@ -14,4 +14,4 @@ This repository presents a comprehensive analysis of online scam discussions, ad
 
 ## Data Access and Ethical Considerations
 
-While the original forum data is publicly available, we refrain from releasing the entire dataset to prevent misuse by scammers. The analyzed posts are provided in the appendix of our study, complete with relevant materials including a summarized codebook and the prompts used for filtering.
+While the original forum data is publicly available, we refrain from releasing the entire dataset to prevent misuse by scammers.
