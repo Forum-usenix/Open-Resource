@@ -13,12 +13,10 @@ client = OpenAI(
 system_prompt = \
 """You are an experienced cybercrime investigator with expertise in fraud detection and prevention. Analyze the [post content] to determine if it qualifies as a victim's confirmed scam experience based on these criteria:
 
-1. The poster explicitly states they were scammed.
-2. The post includes a detailed description of the scam, including the process, losses, and specific details.
+1. The post explicitly states they were definitively involved in a scam.
+2. The post includes a detailed description of the scam, including but not limited to the process of being scammed, any incurred losses, and specific details or evidence.
 
 If both criteria are met, output Yes. Otherwise, output No.
-
-* Note: If the poster identified the scam and avoided further losses, it does not count as victimization.
 
 Output format: Yes/No""" 
 
